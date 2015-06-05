@@ -13,6 +13,6 @@ This library supports four different types of values:
 * dictionaries (associative arrays) `List<Entry<String, ?>>` class;
 * list as `List` (of any bencode object) class.
 
-According [Bencode format description](https://ru.wikipedia.org/wiki/Bencode).
+According [Bencode format description](https://ru.wikipedia.org/wiki/Bencode)
 the encoded data representing a chain of bytes that does not imply any charset.
 In this implementation meant that the source data are located in the *utf-8* charset.
