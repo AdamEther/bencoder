@@ -7,12 +7,14 @@
 <p>
   Bencode (pronounced like B encode) is the encoding used by the peer-to-peer file sharing
 system BitTorrent for storing and transmitting loosely structured data.
-It supports four different types of values:
+</p>
+<p>
+This library supports four different types of values:
   <ul>
-      <li>byte strings as String class;</li>
-      <li>integers as Integer class;</li>
-      <li>dictionaries (associative arrays) LinkedList<Entry<String, ?>> class;</li>
-      <li>list as LinkedList (of any bencode object) class</li>
+      <li>byte strings as ``String`` class;</li>
+      <li>integers as ``Integer`` class;</li>
+      <li>dictionaries (associative arrays) ``List<Entry<String, ?>>`` class;</li>
+      <li>list as ``List`` (of any bencode object) class</li>
   </ul>
 </p>
 
